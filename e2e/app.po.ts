@@ -6,6 +6,6 @@ export class TikiNgPage {
   }
 
   getParagraphText() {
-    return element(by.css('app-root h1')).getText();
+    return element(by.css('app-shell h1')).getText();
   }
 }
