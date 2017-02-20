@@ -2,7 +2,7 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
     "version": "1.0.0-beta.32.3",
-    "name": "tiki-ng"
+    "name": "ng-tiki"
   },
   "apps": [
     {
@@ -19,7 +19,7 @@
       "tsconfig": "tsconfig.json",
       "prefix": "app",
       "styles": [
-        "styles.scss"
+        "scss/global.scss"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
